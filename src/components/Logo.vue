@@ -2,6 +2,7 @@
 	<g-link class="logo" to="/">
 	  <span class="logo__text">
 	    &larr; {{ $static.metadata.siteName }}
+			this is Logo.vue Component
 	  </span>
 	</g-link>
 </template>

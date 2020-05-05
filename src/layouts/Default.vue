@@ -3,11 +3,16 @@
 
     <header class="header">
       <div class="header__left">
-        <Logo v-if="showLogo" />
+				<h1>R Y U C A V E . C O M (Layout Default.vue)</h1>
+				<ul>
+					<li>About</li>
+					<li>Contact</li>
+				</ul>
       </div>
 
       <div class="header__right">
         <ToggleTheme />
+				<h4>in Korea</h4>
       </div>
     </header>
 
@@ -16,8 +21,8 @@
     </main>
 
     <footer class="footer">
-      <span class="footer__copyright">Copyright © {{ new Date().getFullYear() }}. </span>
-      <span class="footer__links">Powered by <a href="//www.suits.at"> SUITS </a></span>
+      <p><span class="footer__copyright">Copyright &copy; {{ new Date().getFullYear() }}</span></p>
+      <p><span class="footer__links">RyuCave.com. Created by <a href="https://simonhlee97.github.io/" target="_blank">Simon Lee</a></span></p>
     </footer>
 
   </div>

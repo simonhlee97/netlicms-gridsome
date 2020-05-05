@@ -1,5 +1,6 @@
 <template>
    <div class="post-meta">
+		 this is PostMeta.vue Component
       Posted {{ post.date }}.
       <template v-if="post.timeToRead">
         <strong>{{ post.timeToRead }} min read.</strong>
