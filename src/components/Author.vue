@@ -1,17 +1,18 @@
 <template>
 	<div class="author">
-
 		<h1 v-if="showTitle" class="author__site-title">
-			{{ $static.metadata.siteName }}
+			{{ $static.metadata.siteName }}.com
 		</h1>
 
 		<p class="author__intro">
-			this is from Author.vue component
+			Hadouken! Welcome to Simon's online cave.
 		</p>
 
 		<p class="author__links">
-			<a href="//twitter.com/simonhlee97">Follow on Twitter</a>
-			<a href="https://github.com/suits-at/netlifycms-gridsome">GitHub</a>
+			
+			
+			<a href="https://twitter.com/simonhlee97"><font-awesome :icon="['fab', 'twitter']"/></a>
+			<a href="https://github.com/simonhlee97"><font-awesome :icon="['fab', 'github']"/></a>
 		</p>
 
 	</div>
@@ -51,7 +52,9 @@ export default {
 
 	&__site-title {
 		margin: 0 auto;
-		font-size: 1.5em;
+		font-size: 2rem;
+		text-transform: uppercase;
+		letter-spacing: 5px;
 		max-width: 400px;
 	}
 

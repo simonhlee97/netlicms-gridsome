@@ -3,26 +3,29 @@
 
     <header class="header">
       <div class="header__left">
-				<h1>R Y U C A V E . C O M (Layout Default.vue)</h1>
-				<ul>
-					<li>About</li>
-					<li>Contact</li>
-				</ul>
+				<g-link to='/'><img id='ryu' src='../assets/images/ryu.jpg' /></g-link>
+				<!-- Layout Default.vue -->
       </div>
 
       <div class="header__right">
         <ToggleTheme />
-				<h4>in Korea</h4>
       </div>
     </header>
+
+		<nav id='navbar'>
+			<g-link class='nav-link' to='/'>blog</g-link>
+			<g-link class='nav-link' to='/about'>about</g-link>
+			<g-link class='nav-link' to='/contact'>contact</g-link>
+		</nav>
 
     <main class="main">
       <slot/>
     </main>
 
-    <footer class="footer">
-      <p><span class="footer__copyright">Copyright &copy; {{ new Date().getFullYear() }}</span></p>
-      <p><span class="footer__links">RyuCave.com. Created by <a href="https://simonhlee97.github.io/" target="_blank">Simon Lee</a></span></p>
+    <footer class="myfooter">
+      <p><span class="footer__copyright">Copyright &copy; {{ new Date().getFullYear() }} | RyuCave.com</span></p>
+      <p><span class="footer__links">Created by <a href="https://simonhlee97.github.io/" target="_blank">Simon Lee</a></span></p>
+			<p>powered by: <a href="https://gridsome.org/" target="_blank">Gridsome</a> and <a href="https://netlifycms.org/" target="_blank">NetlifyCMS</a></p>
     </footer>
 
   </div>
@@ -44,6 +47,22 @@ export default {
 </script>
 
 <style lang="scss">
+.myfooter {
+	width: 100%;
+	line-height: 11px;
+	height: 30vh;
+	// background-color: black;
+	padding: calc(var(--space) / 2);
+  text-align: center;
+	font-size: .8em;
+	> span {
+    margin: 0 .35em;
+  }
+
+  a {
+    color: currentColor;
+  }
+}
 .header {
   display: flex;
   justify-content: space-between;
@@ -71,20 +90,23 @@ export default {
   padding: 1.5vw 15px 0;
 }
 
-.footer {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: calc(var(--space) / 2);
-  text-align: center;
-  font-size: .8em;
+#ryu {
+	width: 80px;
+	height: auto;
+	border-radius: 40%;
+	margin-top: 10px;
+}
 
-  > span {
-    margin: 0 .35em;
-  }
-
-  a {
-    color: currentColor;
-  }
+#navbar {
+	text-align: center;
+}
+.nav-link {
+	font-size: 0.7rem;
+	margin: 8px;
+	text-transform: uppercase;
+	text-decoration-line: none;
+}
+.nav-link:hover {
+	text-decoration-line: underline;
 }
 </style>
