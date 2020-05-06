@@ -25,7 +25,7 @@
     <footer class="myfooter">
       <p><span class="footer__copyright">Copyright &copy; {{ new Date().getFullYear() }} | RyuCave.com</span></p>
       <p><span class="footer__links">Created by <a href="https://simonhlee97.github.io/" target="_blank">Simon Lee</a></span></p>
-			<p>powered by: <a href="https://gridsome.org/" target="_blank">Gridsome</a> and <a href="https://netlifycms.org/" target="_blank">NetlifyCMS</a></p>
+			<p>powered by: <a href="https://netlifycms.org/" target="_blank">NetlifyCMS</a></p>
     </footer>
 
   </div>
@@ -48,11 +48,10 @@ export default {
 
 <style lang="scss">
 .myfooter {
-	width: 100%;
-	line-height: 11px;
+	padding-top: 3.5em;
+	line-height: 10px;
 	height: 30vh;
-	// background-color: black;
-	padding: calc(var(--space) / 2);
+	// padding: calc(var(--space) / 2);
   text-align: center;
 	font-size: .8em;
 	> span {
