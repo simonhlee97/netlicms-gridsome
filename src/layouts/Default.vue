@@ -32,15 +32,13 @@
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
 import ToggleTheme from '~/components/ToggleTheme.vue'
 
 export default {
   props: {
-    showLogo: { default: true }
+    // showLogo: { default: true }
   },
   components: {
-    Logo,
     ToggleTheme
   }
 }
@@ -94,6 +92,9 @@ export default {
 	height: auto;
 	border-radius: 40%;
 	margin-top: 10px;
+}
+#ryu:hover {
+	transition: rotateX(180);
 }
 
 #navbar {
