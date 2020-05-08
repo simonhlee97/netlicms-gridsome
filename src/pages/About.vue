@@ -11,7 +11,7 @@
 					<li>Static site generator: <a href='https://gridsome.org'>Gridsome</a></li>
 					<li>CMS: <a href='https://netlifycms.org'>NetlifyCMS</a></li>
 					<li>Hosting: <a href='https://netlify.com'>Netlify</a></li>
-					<li>Editor: <a href='https://visualstudiocode.com'>VS Code</a></li>
+					<li>Editor: <a href='https://code.visualstudio.com'>VS Code</a></li>
 			</ul>
 
 			<hr id='about-line' class='text-center'>
