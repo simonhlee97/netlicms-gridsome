@@ -5,13 +5,13 @@
 			
 			<h1 class='text-center'>About RyuCave.com</h1>
 			<p>This is a blog I created during the Big COVID-19 Quarantine. I'm going to write about whatever is on my mind, so no limit to the number of topics. However, I do all my web-dev-related writing at <a href="https://dev.to/simonhlee97">Dev.to</a>.</p>
-			<h3>My Toolbox:</h3>
+			<h4>RyuCave Toolbox:</h4>
 			<ul>
-					<li>MacBook Air (2016?)</li>
-					<li>Static site generator: Gridsome</li>
-					<li>CMS: NetlifyCMS</li>
-					<li>Hosting: Netlify</li>
-					<li>Editor: VS Code</li>
+					<li>MacBook Air</li>
+					<li>Static site generator: <a href='https://gridsome.org'>Gridsome</a></li>
+					<li>CMS: <a href='https://netlifycms.org'>NetlifyCMS</a></li>
+					<li>Hosting: <a href='https://netlify.com'>Netlify</a></li>
+					<li>Editor: <a href='https://visualstudiocode.com'>VS Code</a></li>
 			</ul>
 
 			<hr id='about-line' class='text-center'>
@@ -19,7 +19,7 @@
 			<h1 class='text-center'>About Me</h1>
 
 			<section>
-				<h3>I'm Simon.</h3>
+				<h4>I'm Simon.</h4>
 				<p>Born in Korea, and grew up in Hoosier country (Indiana).</p>
 				<p>I'm basically a redneck from Indiana trapped in a Korean man's body.</p>
 				<p>I love basketball (Pacers), tennis, reading, coding, photography, tacos, pizza, and coffee.</p>
@@ -27,13 +27,13 @@
 			</section>
 
 			<section>
-				<h3>My Favorite Podcasts, Blogs, and Websites (non-tech)</h3>
+				<h4>Some of my favorite Podcasts, Blogs, etc.</h4>
 				<ul>
-					<li>Sam Harris</li>
-					<li>Freakonomics</li>
-					<li>Dan Pink</li>
-					<li>Matt</li>
-					<li>Marginal Revolution</li>
+					<li><a href='https://samharris.org'>Sam Harris</a></li>
+					<li><a href='https://freakonomics.com'>Freakonomics</a></li>
+					<li><a href='https://danpink.com'>Dan Pink</a></li>
+					<li><a href='https://ma.tt'>Matt Mullenweg</a></li>
+					<li><a href='https://marginalrevolution.com'>Marginal Revolution</a></li>
 				</ul>
 			</section>
 
