@@ -5,7 +5,7 @@ published: true
 tags:
   - Korea
   - COVID-19
-cover_image: ""
+cover_image: /images/uploads/korea.jpg
 description: The first post for my new blog! Because I switched from WordPress
   to NetlifyCMS, I had to redesign my blog. Should be a better, faster
   experience for all visitors!
