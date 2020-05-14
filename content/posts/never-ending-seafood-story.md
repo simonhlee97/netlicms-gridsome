@@ -31,12 +31,12 @@ Our meal included grilled tuna, lobster topped with cheese, several plates of ra
 
 ![seafood-6](/images/uploads/img_6409.jpeg "When you walk in, you store your shoes in a locker, like a jjim-jil-bang.")
 
+- - -
+
 ###### Restaurant info:
 
-name: 동해횟집
+* name: 동해횟집
+* address: 515, Seokjeong-ro, Namdong-gu, Incheon
+* phone: 032-435-5222
 
-address: 515, Seokjeong-ro, Namdong-gu, Incheon
-
-phone: 032-435-5222
-
-![restaurant near GanSeok Station]( "map of restaurant and GanSeok Station")
+![restaurant near GanSeok Station](/images/uploads/img_6476.png "map of restaurant and GanSeok Station")
