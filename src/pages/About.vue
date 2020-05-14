@@ -3,9 +3,9 @@
     
 		<div class="about">
 			
-			<h1 class='text-center'>About RyuCave.com</h1>
+			<h3 class='text-center'>About RyuCave.com</h3>
 			<p>This is a blog I created during the Big COVID-19 Quarantine. I'm going to write about whatever is on my mind, so no limit to the number of topics. However, I do all my web-dev-related writing at <a href="https://dev.to/simonhlee97">Dev.to</a>.</p>
-			<h4>RyuCave Toolbox:</h4>
+			<h5>RyuCave Toolbox:</h5>
 			<ul>
 					<li>MacBook Air</li>
 					<li>Static site generator: <a href='https://gridsome.org'>Gridsome</a></li>
@@ -16,10 +16,10 @@
 
 			<hr id='about-line' class='text-center'>
 
-			<h1 class='text-center'>About Me</h1>
+			<h3 class='text-center'>About Me</h3>
 
 			<section>
-				<h4>I'm Simon.</h4>
+				<h5>I'm Simon.</h5>
 				<p>Born in Korea, and grew up in Hoosier country (Indiana).</p>
 				<p>I'm basically a redneck from Indiana trapped in a Korean man's body.</p>
 				<p>I love basketball (Pacers), tennis, reading, coding, photography, tacos, pizza, and coffee.</p>
@@ -27,7 +27,7 @@
 			</section>
 
 			<section>
-				<h4>Some of my favorite Podcasts, Blogs, etc.</h4>
+				<h5>Some of my favorite Podcasts, Blogs, etc.</h5>
 				<ul>
 					<li><a href='https://samharris.org'>Sam Harris</a></li>
 					<li><a href='https://freakonomics.com'>Freakonomics</a></li>
@@ -44,7 +44,7 @@
 
 <style lang='scss' scoped>
 	.about {
-		padding: 2em 6.5em;
+		padding: 1em 0.5em;
 	}
 	ul {
 		line-height: 16px;
