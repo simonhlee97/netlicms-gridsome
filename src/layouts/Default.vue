@@ -3,7 +3,7 @@
 
     <header class="header">
       <div class="header__left">
-				<g-link to='/'><img id='ryu' src='../assets/images/ryu.jpg' /></g-link>
+				<g-link to='/'><img id='ryu' src='../assets/images/hadouken89.jpg' /></g-link>
 				<!-- Layout Default.vue -->
       </div>
 
@@ -12,7 +12,7 @@
       </div>
     </header>
 
-		<nav id='navbar'>
+		<nav id='mynavbar'>
 			<g-link class='nav-link' to='/'>blog</g-link>
 			<g-link class='nav-link' to='/about'>about</g-link>
 			<g-link class='nav-link' to='/contact'>contact</g-link>
@@ -88,16 +88,15 @@ export default {
 }
 
 #ryu {
-	width: 80px;
-	height: auto;
-	border-radius: 40%;
-	margin-top: 10px;
+	// border-radius: 50%;
+	margin-top: 9px;
+	transition: all 1s;
 }
 #ryu:hover {
-	transition: rotateX(180);
+	transform: rotateY(180deg);
 }
 
-#navbar {
+#mynavbar {
 	text-align: center;
 }
 .nav-link {
