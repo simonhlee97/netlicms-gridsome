@@ -47,7 +47,7 @@
 		padding: 1em 0.5em;
 	}
 	ul {
-		line-height: 16px;
+		line-height: 17px;
 	}
 	#about-line {
 		margin: 5em 0;
